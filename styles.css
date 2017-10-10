@@ -1,8 +1,8 @@
 body { background-image: url("images/background.png"); background-repeat: no-repeat; background-size: cover; background-color: #322359; }
 
 div.box {
-    margin: auto; margin-top: 50px;
-	width: 450px; height: 600px;
+    margin: auto; margin-top: 60px;
+	width: 425px; height: 600px;
 	
     background-color: #F2F2F2;
 	border-radius: 2px;
