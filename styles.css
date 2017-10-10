@@ -35,7 +35,7 @@ img.line { margin: 20px; }
 div.links {
     margin-top: 30px;
 	
-    font-size: 25px; color: #0C0C0C; text-decoration: none;
+    font-size: 25px; color: #0C0C0C;
 	
 	line-height: 1.8;
 }
@@ -43,12 +43,14 @@ div.links {
 
 a:visited { color: #0C0C0C; text-decoration: none; }
 
+a { color: #0C0C0C; text-decoration: none; }
+
 
 #twitter:hover { color: #1DA1F2; }
 
 #youtube:hover { color: #FF0000; }
 
-#discord:hover { color: #7289DA; }
+#discord:hover { color: #7289DA; cursor:default; }
 
 
 #twitter img {
