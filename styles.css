@@ -57,18 +57,24 @@ a { color: #0C0C0C; text-decoration: none; transition: color 0.3s linear; }
     -webkit-filter: grayscale(100%);
 	filter: grayscale(100%); filter: brightness(0%);
 	transition: filter 0.3s linear;
+	transform: translateY(17%);
+	margin-right: 5px;
 }
 
 #youtube img {
     -webkit-filter: grayscale(100%);
 	filter: grayscale(100%); filter: brightness(0%);
 	transition: filter 0.3s linear;
+	transform: translateY(17%);
+	margin-right: 10px;
 }
 
 #discord img {
     -webkit-filter: grayscale(100%);
 	filter: grayscale(100%); filter: brightness(0%);
 	transition: filter 0.3s linear;
+	transform: translateY(17%);
+	margin-right: 5px;
 }
 
 
