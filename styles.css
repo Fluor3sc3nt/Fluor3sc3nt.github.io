@@ -1,0 +1,86 @@
+body { background-image: url("background.png"); background-repeat: no-repeat; }
+
+div.box {
+    margin: auto; margin-top: 50px;
+	width: 500px; height: 600px;
+	
+    background-color: #F2F2F2;
+	border-radius: 2px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+    color: #0C0C0C; font-family: Open Sans; text-align: center;
+	
+	position: relative;
+    animation: slide; animation-iteration-count: 1; animation-duration: 2s;
+	-webkit-animation-timing-function: ease-out; animation-timing-function: ease;
+} 
+
+@keyframes slide {
+    0%   {top: -100px; opacity: 0;}
+    100% {top: 0px; opacity: 1;}
+}
+
+img.pfp {
+    margin-top: 30px;
+	
+    border-radius: 50%; border-style: solid; border-width: 10px; border-color: #F2F2F2;
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+
+span.username { color: #0C0C0C; font-size: 40px; font-family: Trebuchet MS; font-weight: bold; }
+
+img.line { margin: 20px; } 
+
+div.links {
+    margin-top: 30px;
+	
+    font-size: 25px; color: #0C0C0C; text-decoration: none;
+	
+	line-height: 1.8;
+}
+
+
+a:visited { color: #0C0C0C; text-decoration: none; }
+
+
+#twitter:hover { color: #1DA1F2; }
+
+#youtube:hover { color: #FF0000; }
+
+#discord:hover { color: #7289DA; }
+
+
+#twitter img {
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%); filter: brightness(0%);
+	transition: filter 0.3s linear;
+}
+
+#youtube img {
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%); filter: brightness(0%);
+	transition: filter 0.3s linear;
+}
+
+#discord img {
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%); filter: brightness(0%);
+	transition: filter 0.3s linear;
+}
+
+
+#twitter img:hover {
+filter: none !important;
+-webkit-filter: grayscale(0%);
+}
+
+#youtube img:hover {
+filter: none !important;
+-webkit-filter: grayscale(0%);
+}
+
+#discord img:hover {
+filter: none !important;
+-webkit-filter: grayscale(0%);
+}
